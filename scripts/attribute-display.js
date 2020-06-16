@@ -22,7 +22,7 @@ class AttributeDisplay extends Application {
 		{
 			attributes.push({
 				string: prevstr,
-				value: `"` + obj + `"`
+				value: `"` + (obj.length < 15 ? obj : (obj.substring(0, 15) + `...`)) + `"`
 			})
 		}
 		else if(type === 'boolean' || type === 'number' || type === 'bigint')
