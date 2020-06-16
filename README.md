@@ -1,2 +1,2 @@
-# FoundryVTT-Easy-Actor-Data-Display
-Gives you a macro that will show you the accessible data fields on the selected actor.
+# FoundryVTT-Actor-Attribute-Lists
+A macro that displays the data fields usable in roll commands (e.g. @abilities.str.mod) for the selected actor in FoundryVTT.

@@ -1,0 +1,19 @@
+<div class="actor-attribute-display">
+<nav class="actor-attribute-display-navigation tabs" data-group="primary">
+	{{#each categories}}
+	<a class="item{{#if @first}} active{{/if}}" data-tab="{{this.name}}">{{this.name}}</a>
+	{{/each}}
+</nav>
+
+<section class="actor-attribute-display-body">
+	{{#each categories}}
+	<div class="tab details{{#if @first}} active{{/if}}" data-group="primary" data-tab="{{this.name}}">
+		<ul>
+		{{#each this.attributes}}
+			<li>{{this.string}} ({{this.value}})</li>
+		{{/each}}
+		</ul>
+	</div>
+	{{/each}}
+</section>
+</div>

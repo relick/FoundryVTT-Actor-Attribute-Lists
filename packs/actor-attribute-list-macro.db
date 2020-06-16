@@ -1,0 +1,1 @@
+{"name":"Display Attribute Lists for Selected Actor","permission":{"default":0,"vlOmXPjqXm4MbOQs":3},"type":"script","flags":{"furnace":{"runAsGM":false}},"scope":"global","command":"ShowActorAttributeData(actor);","author":"vlOmXPjqXm4MbOQs","img":"icons/svg/book.svg","actorIds":[],"_id":"XDZSuKH2hlWtod3a"}
