@@ -3,9 +3,9 @@
 	"title": "Actor Attribute Lists",
 	"description": "A macro that displays the data fields usable in roll commands (e.g. @abilities.str.mod) for the selected actor.",
 	"author": "relick",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"minimumCoreVersion": "0.6.0",
-	"compatibleCoreVersion": "0.6.2",
+	"compatibleCoreVersion": "0.6.3",
 
 	"scripts": [
 		"./scripts/attribute-display.js"
@@ -30,5 +30,5 @@
 	],
 	"url": "https://github.com/relick/FoundryVTT-Actor-Attribute-Lists",
 	"manifest": "https://raw.githubusercontent.com/relick/FoundryVTT-Actor-Attribute-Lists/master/module.json",
-	"download": "https://github.com/relick/FoundryVTT-Actor-Attribute-Lists/archive/0.0.3.zip"
+	"download": "https://github.com/relick/FoundryVTT-Actor-Attribute-Lists/archive/0.0.4.zip"
 }
