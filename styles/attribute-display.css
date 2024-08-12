@@ -5,13 +5,19 @@
 	margin: 0;
 }
 
+.actor-attribute-display .actor-attribute-display-navigation.tabs {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+	gap: 3px;
+}
+
 .actor-attribute-display .actor-attribute-display-navigation .item {
 	margin: 0;
 	padding: 5px 1rem 0 1rem;
 	background: rgba(255,255,255,.2);
 	border: none;
-  box-shadow:	0 1px 0 0 rgba(0,0,0,.2);
-	text-align: left;
+	box-shadow: 0 1px 0 0 rgba(0,0,0,.2);
+	text-align: center;
 	font-size: 13px;
 	line-height: 16px;
 	height: 26px;
